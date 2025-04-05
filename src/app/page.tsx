@@ -9,7 +9,7 @@ export default function Home() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/home.jpg"
+            src="home.jpg"
             alt="Modern interior with large windows"
             fill
             className="object-cover"
@@ -71,7 +71,7 @@ export default function Home() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/process-image.jpg"
+            src="process-image.jpg"
             alt="Modern house in nature"
             fill
             className="object-cover"
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center pt-8 border-t border-gray-200">
             <Image
-              src="/logo.svg"
+              src="logo.svg"
               alt="East Coast Modern"
               width={60}
               height={30}
@@ -127,25 +127,25 @@ const projects = [
   {
     title: 'White Point Retreat',
     location: 'NOVA SCOTIA',
-    image: '/white-point.jpg',
+    image: 'white-point.jpg',
     slug: 'white-point-retreat'
   },
   {
     title: 'Cape Breton Retreat',
     location: 'NOVA SCOTIA',
-    image: '/cape-breton.jpg',
+    image: 'cape-breton.jpg',
     slug: 'cape-breton-retreat'
   },
   {
     title: 'Whites Lake',
     location: 'NOVA SCOTIA',
-    image: '/whites-lake.jpg',
+    image: 'whites-lake.jpg',
     slug: 'whites-lake'
   },
   {
     title: 'Lakehouse I',
     location: 'NOVA SCOTIA',
-    image: '/lakehouse.jpg',
+    image: 'lakehouse.jpg',
     slug: 'lakehouse-1'
   }
 ]
