@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import NewsletterForm from './components/NewsletterForm'
+import FeaturedProjects from './components/FeaturedProjects'
 
 export default function Home() {
   return (
@@ -40,32 +41,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section className="py-16 px-8 bg-white">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          {projects.map((project) => (
-            <div key={project.title} className="relative aspect-[4/3] group">
-              <Image
-                src={project.image}
-                alt={project.title}
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-black/30" />
-              <div className="absolute top-8 left-8 text-white">
-                <p className="text-sm mb-2">{project.location}</p>
-                <h3 className="text-3xl font-light">{project.title}</h3>
-              </div>
-              <Link
-                href={`/projects/${project.slug}`}
-                className="absolute bottom-8 left-8 px-6 py-3 text-sm font-medium text-white border border-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
-              >
-                See Project
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Featured Projects */}
+      <FeaturedProjects />
 
       {/* Process Section */}
       <section className="relative h-screen">
@@ -106,15 +83,15 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center pt-8 border-t border-gray-200">
             <Image
-              src="logo.svg"
-              alt="East Coast Modern"
-              width={60}
+              src="/logo.svg"
+              alt="The Coach House Co."
+              width={200}
               height={30}
-              className="mb-8 md:mb-0"
+              className="h-8 w-auto mb-8 md:mb-0 invert"
             />
             <div className="text-sm text-gray-500">
-              <p>© East Coast Modern 2024</p>
-              <p>5514 Falkland Street, Halifax, NS Canada, B3K 1A3</p>
+              <p>© The Coach House Co. 2025</p>
+              <p>6662 B Bank Street, Ottawa, ON K0A 2P0 Canada</p>
             </div>
           </div>
         </div>

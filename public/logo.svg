@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="60" height="30" viewBox="0 0 60 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="12" height="30" fill="currentColor"/>
-  <rect x="24" width="12" height="30" fill="currentColor"/>
-  <rect x="48" width="12" height="30" fill="currentColor"/>
+<svg width="500" height="500" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- House Icon -->
+    <g transform="translate(50, 50)">
+        <!-- Outer house -->
+        <path d="M50 200 L200 50 L350 200 L350 350 L50 350 Z" stroke="#FFFFFF" stroke-width="32" fill="none"/>
+        <!-- Middle house -->
+        <path d="M110 230 L200 140 L290 230 L290 350 L110 350 Z" stroke="#FFFFFF" stroke-width="32" fill="none"/>
+        <!-- Inner house -->
+        <path d="M170 260 L200 230 L230 260 L230 350 L170 350 Z" stroke="#FFFFFF" stroke-width="32" fill="none"/>
+    </g>
 </svg> 
