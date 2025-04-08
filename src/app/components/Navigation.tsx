@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Navigation() {
         <div className="max-w-[1440px] mx-auto flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Link href="/" className="text-white flex items-center">
-              <img src="/logo.svg" alt="The Coach House Company" className="h-8 w-auto" />
+              <Image src="/logo.svg" alt="The Coach House Company" width={32} height={32} className="w-auto h-8" />
             </Link>
             <span className="text-white text-sm hidden md:block">The Coach House Co.</span>
           </div>

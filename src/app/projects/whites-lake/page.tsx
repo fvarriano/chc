@@ -23,7 +23,7 @@ export default function WhitesLake() {
               <p className="text-sm mb-4">NOVA SCOTIA</p>
               <h1 className="text-5xl font-light mb-8">Whites Lake</h1>
               <div className="space-y-6">
-                <p className="text-gray-600">Situated on the tranquil shores of Whites Lake, this contemporary lakehouse combines modern design with natural elements. The home's design maximizes lake views while maintaining privacy, featuring a series of carefully positioned windows and outdoor spaces that capture the changing light throughout the day.</p>
+                <p className="text-gray-600">Situated on the tranquil shores of Whites Lake, this contemporary lakehouse combines modern design with natural elements. The home&apos;s design maximizes lake views while maintaining privacy, featuring a series of carefully positioned windows and outdoor spaces that capture the changing light throughout the day.</p>
                 <p className="text-gray-600">The interior spaces flow seamlessly to exterior decks and patios, creating multiple opportunities for outdoor living and entertaining. The material palette includes locally sourced wood and stone, complemented by modern finishes that create a sophisticated yet comfortable atmosphere.</p>
               </div>
             </div>

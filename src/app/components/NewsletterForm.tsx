@@ -6,7 +6,8 @@ export default function NewsletterForm() {
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (!containerRef.current) return
+    const currentContainer = containerRef.current
+    if (!currentContainer) return
 
     const script = document.createElement('script')
     script.src = 'https://the-coach-house-co.kit.com/6f30c0d327/index.js'
@@ -15,13 +16,13 @@ export default function NewsletterForm() {
       console.log('Kit script loaded successfully')
     }
 
-    containerRef.current.appendChild(script)
+    currentContainer.appendChild(script)
 
     return () => {
-      if (containerRef.current) {
-        const scriptElement = containerRef.current.querySelector('script')
+      if (currentContainer) {
+        const scriptElement = currentContainer.querySelector('script')
         if (scriptElement) {
-          containerRef.current.removeChild(scriptElement)
+          currentContainer.removeChild(scriptElement)
         }
       }
     }
