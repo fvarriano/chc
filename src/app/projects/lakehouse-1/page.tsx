@@ -23,7 +23,7 @@ export default function Lakehouse() {
               <p className="text-sm mb-4">NOVA SCOTIA</p>
               <h1 className="text-5xl font-light mb-8">Lakehouse I</h1>
               <div className="space-y-6">
-                <p className="text-gray-600">Perched on the edge of a serene Nova Scotia lake, Lakehouse I represents the perfect balance of modern architecture and natural surroundings. The design emphasizes horizontal lines that mirror the lake's surface, while floor-to-ceiling windows create a seamless connection between interior and exterior spaces.</p>
+                <p className="text-gray-600">Perched on the edge of a serene Nova Scotia lake, Lakehouse I represents the perfect balance of modern architecture and natural surroundings. The design emphasizes horizontal lines that mirror the lake&apos;s surface, while floor-to-ceiling windows create a seamless connection between interior and exterior spaces.</p>
                 <p className="text-gray-600">The home features an open-concept living area that extends onto a generous lakeside deck, creating an indoor-outdoor living experience. Sustainable materials and energy-efficient systems were carefully integrated into the design, making this retreat as environmentally conscious as it is beautiful.</p>
               </div>
             </div>
