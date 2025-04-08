@@ -36,7 +36,7 @@ export default function LunenburgRetreat() {
               <div>
                 <h2 className="text-sm font-medium mb-4">FEATURES</h2>
                 <div className="space-y-4">
-                  <p className="text-gray-600">3 Bedrooms | 2.5 Bathrooms | Chef's Kitchen | Harbor Views | Private Garden | Original Hardwood Floors | Period Details | Modern Amenities</p>
+                  <p className="text-gray-600">3 Bedrooms | 2.5 Bathrooms | Chef&apos;s Kitchen | Harbor Views | Private Garden | Original Hardwood Floors | Period Details | Modern Amenities</p>
                 </div>
               </div>
               <Link

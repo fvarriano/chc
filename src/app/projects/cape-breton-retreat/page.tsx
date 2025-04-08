@@ -23,7 +23,7 @@ export default function CapeBretronRetreat() {
               <p className="text-sm mb-4">NOVA SCOTIA</p>
               <h1 className="text-5xl font-light mb-8">Cape Breton Retreat</h1>
               <div className="space-y-6">
-                <p className="text-gray-600">The Cape Breton Retreat is a private residence that showcases both prefabricated construction techniques and a deep appreciation for the natural environment. At the heart of this project lies our clients' profound desire to spend as much time outside as possible. This concept is realized through the subdivision of the program into five distinct buildings, each carefully nestled within the landscape, that pinwheel around a central gathering space ("the Lodge"). Breaking up the program and creating an extensive network of trails throughout the property encourages movement between buildings and engagement with the outdoors.</p>
+                <p className="text-gray-600">The Cape Breton Retreat is a private residence that showcases both prefabricated construction techniques and a deep appreciation for the natural environment. At the heart of this project lies our clients&apos; profound desire to spend as much time outside as possible. This concept is realized through the subdivision of the program into five distinct buildings, each carefully nestled within the landscape, that pinwheel around a central gathering space (&quot;the Lodge&quot;). Breaking up the program and creating an extensive network of trails throughout the property encourages movement between buildings and engagement with the outdoors.</p>
               </div>
             </div>
             <div>
